@@ -21,7 +21,29 @@
 
 #include "AllSolutions.h"
 
+#include <map>
+using namespace std;
+
 vector<int> TwoSum::Solution::twoSum(vector<int>& nums, int target) {
 	vector<int> result;
+	map<int, int> numMap;
+
+	for (vector<int>::iterator i = nums.begin(); i != nums.end(); i++) {
+		if (numMap.count(target - *i) != 0)
+		{
+			if (i - nums.begin() > numMap[target - *i]) {
+				result.push_back(numMap[target - *i]);
+				result.push_back(i - nums.begin());
+			}
+			else {
+				result.push_back(i - nums.begin());
+				result.push_back(numMap[target - *i]);
+			}
+		}
+		else {
+			numMap[*i] = i - nums.begin();
+		}
+	}
+
 	return result;
 }
