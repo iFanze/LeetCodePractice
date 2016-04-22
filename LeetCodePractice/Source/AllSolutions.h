@@ -21,6 +21,13 @@ namespace TwoSum {
 	};
 }
 
-namespace Others {
-
+// Title:	125_ValidPalindrome
+// Date:	2016/4/22
+namespace ValidPalindrome {
+	class Solution {
+	public:
+		bool isPalindrome(string s);
+		bool isAlphanumeric(char c);
+		char toUpperCase(char c);
+	};
 }

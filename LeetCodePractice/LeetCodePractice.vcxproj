@@ -143,6 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Source\001_TwoSum.cpp" />
+    <ClCompile Include="Source\125_ValidPalindrome.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\AllSolutions.h" />

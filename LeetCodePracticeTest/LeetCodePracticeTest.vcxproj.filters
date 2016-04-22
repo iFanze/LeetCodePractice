@@ -29,5 +29,8 @@
     <ClCompile Include="001_TwoSum_Test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="125_ValidPalindrome_Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
