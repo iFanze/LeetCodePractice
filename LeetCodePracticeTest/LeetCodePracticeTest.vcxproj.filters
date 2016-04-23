@@ -32,5 +32,8 @@
     <ClCompile Include="125_ValidPalindrome_Test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="028_ImplementStrStr_Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

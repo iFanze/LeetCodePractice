@@ -31,3 +31,12 @@ namespace ValidPalindrome {
 		char toUpperCase(char c);
 	};
 }
+
+// Title:	028_ImplementStrStr
+// Date:	2016/4/23
+namespace ImplementStrStr {
+	class Solution {
+	public:
+		int strStr(string haystack, string needle);
+	};
+}

@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source\028_ImplementStrStr.cpp" />
     <ClCompile Include="Source\001_TwoSum.cpp" />
     <ClCompile Include="Source\125_ValidPalindrome.cpp" />
   </ItemGroup>
