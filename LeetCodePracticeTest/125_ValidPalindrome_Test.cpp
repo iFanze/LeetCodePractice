@@ -62,7 +62,8 @@ namespace LeetCodePracticeTest
 				"A man, a plan, a canal: Panama",
 				"race a car",
 				"A.",
-				""
+				"",
+				",."
 			};
 
 			for each (string i in s)

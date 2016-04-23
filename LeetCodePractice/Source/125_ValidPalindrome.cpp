@@ -45,8 +45,14 @@ bool ValidPalindrome::Solution::isPalindrome(string s) {
 
 
 	while (left < right) {
-		while (!isAlphanumeric(*(left))) left++;
-		while (!isAlphanumeric(*(right))) right--;
+		while (!isAlphanumeric(*(left))) {
+			left++;
+			if (left >= right) return true;
+		}
+		while (!isAlphanumeric(*(right))) {
+			right--;
+			if (left >= right) return true;
+		}
 		if (toUpperCase(*left) != toUpperCase(*right))
 			return false;
 		else {
