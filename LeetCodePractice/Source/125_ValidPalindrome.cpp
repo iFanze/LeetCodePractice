@@ -36,14 +36,23 @@ char ValidPalindrome::Solution::toUpperCase(char c) {
 
 bool ValidPalindrome::Solution::isPalindrome(string s) {
 	int length = s.length();
+
+	if (s == "")
+		return true;
+
 	char* left = &s[0];
 	char* right = &(s[length - 1]);
 
+
 	while (left < right) {
+		while (!isAlphanumeric(*(left))) left++;
+		while (!isAlphanumeric(*(right))) right--;
 		if (toUpperCase(*left) != toUpperCase(*right))
 			return false;
-		while (!isAlphanumeric(*(++left)));
-		while (!isAlphanumeric(*(--right)));
+		else {
+			left++;
+			right--;
+		}
 	}
 	return true;
 }

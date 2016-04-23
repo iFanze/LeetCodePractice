@@ -60,7 +60,9 @@ namespace LeetCodePracticeTest
 
 			string s[] = {
 				"A man, a plan, a canal: Panama",
-				"race a car"
+				"race a car",
+				"A.",
+				""
 			};
 
 			for each (string i in s)
