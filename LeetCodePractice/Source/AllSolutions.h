@@ -9,7 +9,11 @@
 **********************************************************************************/
 
 #pragma once
+
 #include<vector>
+#include<iostream>
+#include<sstream>
+
 using namespace std;
 
 // Title:	001_TwoSum
@@ -38,5 +42,14 @@ namespace ImplementStrStr {
 	class Solution {
 	public:
 		int strStr(string haystack, string needle);
+	};
+}
+
+// Title:	151_ReverseWordsInAString
+// Date:	2016/4/23
+namespace ReverseWordsInAString {
+	class Solution {
+	public:
+		void reverseWords(string &s);
 	};
 }

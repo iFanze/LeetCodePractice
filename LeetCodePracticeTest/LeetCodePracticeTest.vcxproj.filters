@@ -35,5 +35,8 @@
     <ClCompile Include="028_ImplementStrStr_Test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="151_ReverseWordsInAString_Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

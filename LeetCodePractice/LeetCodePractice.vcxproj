@@ -145,6 +145,7 @@
     <ClCompile Include="Source\028_ImplementStrStr.cpp" />
     <ClCompile Include="Source\001_TwoSum.cpp" />
     <ClCompile Include="Source\125_ValidPalindrome.cpp" />
+    <ClCompile Include="Source\151_ReverseWordsInAString.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\AllSolutions.h" />

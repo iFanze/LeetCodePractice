@@ -24,6 +24,9 @@
     <ClCompile Include="Source\028_ImplementStrStr.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Source\151_ReverseWordsInAString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\AllSolutions.h">

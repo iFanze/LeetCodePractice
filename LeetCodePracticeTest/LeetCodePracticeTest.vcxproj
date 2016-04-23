@@ -163,6 +163,7 @@
   <ItemGroup>
     <ClCompile Include="028_ImplementStrStr_Test.cpp" />
     <ClCompile Include="125_ValidPalindrome_Test.cpp" />
+    <ClCompile Include="151_ReverseWordsInAString_Test.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
